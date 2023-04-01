@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/codingbat
+    username: postgres
+    password: 9698
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
